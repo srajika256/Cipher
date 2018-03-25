@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Level 2 : CSS
+	</title>
+
+	<style>
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s; 
+    animation-name: example;
+    animation-duration: 4s;
+
+}
+	h1{
+		text-align: center;
+		background-color: black;
+		color: white;
+		padding: 80px;
+		font-size: 100px;
+	}
+
+
+
+footer
+{
+text-align: center;
+		background-color: black;
+		color: white;
+		padding: 20px;
+		font-size: 80px;
+}
+
+
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:500px; top:0px;}
+    50%  {background-color:blue; left:500px; top:500px;}
+    75%  {background-color:green; left:0px; top:500px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:500px; top:0px;}
+    50%  {background-color:blue; left:500px; top:500px;}
+    75%  {background-color:green; left:0px; top:500px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+#grad1 {
+    height: 200px;
+    background: red; 
+    background: linear-gradient(to right, black , white); 
+}
+img:hover {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+  height: 300px;
+  width: 400px;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+	</style>
+
+
+</head>
+<body background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxSp8CD7tp1s2pZYwI0qJeIPJFtYsgZoPFjR-4YUNWq2cKGgOR">
+
+<h1 id="grad1">Guess The CSS Properties used in this page!!</h1>
+
+<div></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb_-9vwMT69WyJ9rUnaOKaIKv5nbKCuL8VQqLtRY57LA-HTlcb">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+	<footer><form><textarea name="message" style="width: 100%; height: auto;">Your Answer Here...</textarea>
+ 	</form>
+ 	<p id="answer" style="display: none;">1.CSS Animation.<br>
+ 	2. CSS gradient.<br>
+ 3.Shake an Image</p>
+ 	<button type="button" onclick="document.getElementById('answer').style.display='block'">Submit...</button></footer>
+</body>
+</html>
