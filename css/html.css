@@ -1,0 +1,49 @@
+#puzzel {
+	width:0%;
+	margin: 0px;
+	padding:1px;
+	
+	border: 1px solid black;
+}
+#cross{
+	text-align: left;
+	width=500px;
+	height:1px;
+	padding:2px;
+	max-width: 30px;
+	border: 1px solid white;
+}
+input{
+	max-width: 30px;
+}
+.enable{
+	
+	background-color: #c0c0c0;
+}
+.disable{
+	
+	background-color: #000000;
+}
+
+#buttons{
+	width:30%;
+	float: right;
+
+}
+
+
+#leftBox{
+	float: left;
+	width:50%
+	height: 50%;
+}
+#rightBox{
+	float: left;
+}
+#butt{
+	width: 100px;
+	padding:20px;
+}
+#table{
+	padding:2px;
+}
